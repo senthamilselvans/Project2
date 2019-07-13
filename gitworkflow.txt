@@ -1,0 +1,41 @@
+1. Launch EC2 machine and install git as root user
+#yum install git
+
+2. Check the version of git
+#git --version
+
+3. Provide the user name and user email for git
+#git config --global user.name "username"
+#git config --global user.email "email address"
+
+4. Install the vim editor using the command
+#git config --global core.editor vim
+
+5. For compression
+#git config --global core.compression 2
+
+6. Diff tool
+This setting configures diff viewer tool. For example, below command configures vimdiff as a diff tool:
+#git config --global diff.tool vimdiff
+
+7. To view the configurations we done so far excute
+#git config -l
+
+8. Make a directory, get into it then initialize the git
+#mkdir <directory name>
+#cd <directory name>
+#git init
+
+9. Now list the files inside the directory using the command
+#ls -la
+
+10. Using the clone command we can download the project from the Github
+#git clone <URL from where the project is needs to be downloaded>
+
+11. 
+
+
+
+
+
+
